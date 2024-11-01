@@ -1,0 +1,193 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .fp .wrap-output {
+  height:0;
+  overflow:hidden;
+  opacity:0;
+  transition:all 1s ease;
+}
+ .fp .wrap-output.visible {
+  height:auto;
+  overflow:hidden;
+  opacity:1;
+}
+ .fp textarea:focus {
+  border:none;
+  box-shadow:none;
+}
+*:focus {
+  outline:none;
+}
+
+.fp .logo {
+  width:90px;
+  height:90px;
+}
+
+.fp input::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+ .fp input:-ms-input-placeholder {
+  color: #ccc;
+}
+
+ .fp input::-ms-input-placeholder {
+  color: #ccc;
+}
+ .fp .clear {
+  height:1px;
+}
+ .fp .container {
+  width: 600px;
+  margin: 20px auto;
+}
+ .fp .container header {
+  text-align: center;
+}
+ .fp .container header h2 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 0 15px;
+  padding: 0;
+}
+ .fp .container header p {
+  color: #666;
+  margin: 0 0 35px;
+}
+ .fp .container footer {
+  width: 100%;
+  padding: 15px 40px;
+  margin: 0 0 -40px -40px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+ .fp .container footer a {
+  color: #333;
+  text-decoration: none;
+}
+ .fp .container footer .fa {
+  color: #e74c3c;
+}
+/* Magic Starts here */
+ .fp .form {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  padding-top:40px;
+}
+ .fp .form:before,
+ .fp .form:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+ .fp .form .field {
+  width: 100%;
+  padding: 20px 20px 5px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  float: left;
+  transition: 0.3s linear;
+}
+ .fp .form .field.half {
+  width: 50%;
+}
+ .fp .form .field:nth-child(2n) {
+  border-left: 1px solid #e5e5e5;
+}
+ .fp .form .field label {
+  color: #a1a1a1;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+ .fp .form .field input, .fp textarea {
+  outline: none;
+  background: none;
+  width: 100%;
+  border: 0;
+  padding: 5px 0;
+  color: #666;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.3s linear;
+}
+ .fp .form .field input, .fp t , .fp textarea {
+  box-shadow:none;
+}
+ .fp .form .checkbox {
+  display: block;
+  clear: both;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 30px;
+  color: #a1a1a1;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ .fp .form .checkbox a {
+  color: #009ddc;
+  text-decoration: none;
+}
+ .fp .form input[type="checkbox"] label {
+  background: #000;
+  height: 30px;
+  border: none;
+}
+ .fp .form button, .fp #submit {
+  cursor: pointer;
+  display: block;
+  background: #e88e27;
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 16px 0;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s linear;
+}
+ .fp .form button:hover, .fp #submit:hover {
+  background: #f98c10;
+}
+ .fp .inner-title {
+  color: #333;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align:center;
+  margin: 0 0 15px;
+  padding:0 20px;
+}
+ .fp .output-shortcode {
+    margin-bottom: 40px;
+    padding: 0 20px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+ .fp .output-shortcode:hover {
+  cursor:pointer;
+}
